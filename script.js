@@ -65,9 +65,7 @@ let weather = {
         document.body.style.backgroundImage ="url(assets/default.jpg)"
                         
     }
-/* 
-    document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1600x900/?" + name + "')"; */
+    
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
